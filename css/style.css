@@ -1,0 +1,38 @@
+/* Estilos generales sin enlaces externos */
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f4f7f5;
+    color: #2c3e35;
+}
+
+/* Color verde salvia para títulos y botones */
+.salvia {
+    color: #5c8374 !important;
+}
+
+.btn-salvia {
+    background-color: #5c8374;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-salvia:hover {
+    background-color: #46665a;
+    color: #ffffff;
+}
+
+/* Efecto suave en las tarjetas */
+.tarjeta {
+    transition: transform 0.2s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+/* Tamaño uniforme para los íconos de emociones */
+.icono {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
